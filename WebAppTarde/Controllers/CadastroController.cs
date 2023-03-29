@@ -2,12 +2,8 @@
 
 namespace WebAppTarde.Controllers
 {
-    public class ClientesController : Controller
+    public class CadastroController : Controller
     {
-        public IActionResult Lista()
-        {
-            return View();
-        }
         public IActionResult Cadastro()
         {
             return View();
